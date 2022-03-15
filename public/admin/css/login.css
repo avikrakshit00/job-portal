@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.register-ancore{
+	text-decoration: none !important;
+	color: white  !important;
+}
+.branding{
+	text-align :center;
+}
+
+.welcome-image{
+	background-image: url("../img/welcome.jpg");
+	background-size: cover;
+
+}
+
+.branding h1,.branding p,.welcome-form label{
+	font-family: 'Alata', sans-serif;
+}
+
+.branding h1{
+	font-weight: bold;
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+
+}
+
+.branding p{
+	font-weight: normal;
+	letter-spacing:3px ;
+	word-spacing: 5px;
+	color: #848484;
+}
+
+.welcome-form-input{
+	padding-left: 0;
+	margin: 0;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+
+}
+
+.welcome-form-input{
+	box-shadow: none !important;
+}
+
+.welcome-form label{
+	margin: 0;
+	padding: 0;
+}
+
+.next-btn:hover,.back-btn:hover{
+	color: #848484;
+}
+
+
+.border-radius-box{
+	border-radius: 10px;
+}
+
+.show-user-data-profile{
+	display: none;
+}
+
+.show-user-data:hover .show-user-data-profile{
+	 display: inline-block !important;
+	 transition: 2s;
+}
+.show-user-data:hover .user-img-pra-det{
+	opacity: 0.5;
+}
+
+
+#content{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.container-fluid-top_main{
+	margin-top: -50px !important;
+}
+
+.profile_show_dyn{
+	width: 80px;
+}
+
+.id_show_dyn{
+	width: 30px;
+}
+
+.loader{
+	z-index: 1000000000;
+}
+
+.loader{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.rounded_user_box{
+	border-radius: 8px;
+}
+
+.user-personal-details h5,.user-personal-details p{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 4px;
+}
